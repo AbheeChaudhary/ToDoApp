@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4FD996022CCFC87400EE9B9D /* ToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FD996132CCFC87500EE9B9D /* ToDoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FD9961D2CCFC87500EE9B9D /* ToDoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD996022CCFC87400EE9B9D /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD996132CCFC87500EE9B9D /* ToDoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD9961D2CCFC87500EE9B9D /* ToDoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -85,9 +85,9 @@
 		4FD996032CCFC87400EE9B9D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4FD996022CCFC87400EE9B9D /* ToDoApp.app */,
-				4FD996132CCFC87500EE9B9D /* ToDoAppTests.xctest */,
-				4FD9961D2CCFC87500EE9B9D /* ToDoAppUITests.xctest */,
+				4FD996022CCFC87400EE9B9D /* ToDoList.app */,
+				4FD996132CCFC87500EE9B9D /* ToDoListTests.xctest */,
+				4FD9961D2CCFC87500EE9B9D /* ToDoListUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4FD996012CCFC87400EE9B9D /* ToDoApp */ = {
+		4FD996012CCFC87400EE9B9D /* ToDoList */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4FD996272CCFC87500EE9B9D /* Build configuration list for PBXNativeTarget "ToDoApp" */;
+			buildConfigurationList = 4FD996272CCFC87500EE9B9D /* Build configuration list for PBXNativeTarget "ToDoList" */;
 			buildPhases = (
 				4FD995FE2CCFC87400EE9B9D /* Sources */,
 				4FD995FF2CCFC87400EE9B9D /* Frameworks */,
@@ -110,16 +110,16 @@
 			fileSystemSynchronizedGroups = (
 				4FD996042CCFC87400EE9B9D /* ToDoApp */,
 			);
-			name = ToDoApp;
+			name = ToDoList;
 			packageProductDependencies = (
 			);
 			productName = ToDoApp;
-			productReference = 4FD996022CCFC87400EE9B9D /* ToDoApp.app */;
+			productReference = 4FD996022CCFC87400EE9B9D /* ToDoList.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4FD996122CCFC87500EE9B9D /* ToDoAppTests */ = {
+		4FD996122CCFC87500EE9B9D /* ToDoListTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4FD9962A2CCFC87500EE9B9D /* Build configuration list for PBXNativeTarget "ToDoAppTests" */;
+			buildConfigurationList = 4FD9962A2CCFC87500EE9B9D /* Build configuration list for PBXNativeTarget "ToDoListTests" */;
 			buildPhases = (
 				4FD9960F2CCFC87500EE9B9D /* Sources */,
 				4FD996102CCFC87500EE9B9D /* Frameworks */,
@@ -133,16 +133,16 @@
 			fileSystemSynchronizedGroups = (
 				4FD996162CCFC87500EE9B9D /* ToDoAppTests */,
 			);
-			name = ToDoAppTests;
+			name = ToDoListTests;
 			packageProductDependencies = (
 			);
 			productName = ToDoAppTests;
-			productReference = 4FD996132CCFC87500EE9B9D /* ToDoAppTests.xctest */;
+			productReference = 4FD996132CCFC87500EE9B9D /* ToDoListTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4FD9961C2CCFC87500EE9B9D /* ToDoAppUITests */ = {
+		4FD9961C2CCFC87500EE9B9D /* ToDoListUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4FD9962D2CCFC87500EE9B9D /* Build configuration list for PBXNativeTarget "ToDoAppUITests" */;
+			buildConfigurationList = 4FD9962D2CCFC87500EE9B9D /* Build configuration list for PBXNativeTarget "ToDoListUITests" */;
 			buildPhases = (
 				4FD996192CCFC87500EE9B9D /* Sources */,
 				4FD9961A2CCFC87500EE9B9D /* Frameworks */,
@@ -156,11 +156,11 @@
 			fileSystemSynchronizedGroups = (
 				4FD996202CCFC87500EE9B9D /* ToDoAppUITests */,
 			);
-			name = ToDoAppUITests;
+			name = ToDoListUITests;
 			packageProductDependencies = (
 			);
 			productName = ToDoAppUITests;
-			productReference = 4FD9961D2CCFC87500EE9B9D /* ToDoAppUITests.xctest */;
+			productReference = 4FD9961D2CCFC87500EE9B9D /* ToDoListUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4FD995FD2CCFC87400EE9B9D /* Build configuration list for PBXProject "ToDoApp" */;
+			buildConfigurationList = 4FD995FD2CCFC87400EE9B9D /* Build configuration list for PBXProject "ToDoList" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4FD996012CCFC87400EE9B9D /* ToDoApp */,
-				4FD996122CCFC87500EE9B9D /* ToDoAppTests */,
-				4FD9961C2CCFC87500EE9B9D /* ToDoAppUITests */,
+				4FD996012CCFC87400EE9B9D /* ToDoList */,
+				4FD996122CCFC87500EE9B9D /* ToDoListTests */,
+				4FD9961C2CCFC87500EE9B9D /* ToDoListUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		4FD996152CCFC87500EE9B9D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4FD996012CCFC87400EE9B9D /* ToDoApp */;
+			target = 4FD996012CCFC87400EE9B9D /* ToDoList */;
 			targetProxy = 4FD996142CCFC87500EE9B9D /* PBXContainerItemProxy */;
 		};
 		4FD9961F2CCFC87500EE9B9D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4FD996012CCFC87400EE9B9D /* ToDoApp */;
+			target = 4FD996012CCFC87400EE9B9D /* ToDoList */;
 			targetProxy = 4FD9961E2CCFC87500EE9B9D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -455,7 +455,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToDoApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ToDoApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToDoList.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ToDoList";
 			};
 			name = Debug;
 		};
@@ -473,7 +473,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToDoApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ToDoApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToDoList.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ToDoList";
 			};
 			name = Release;
 		};
@@ -512,7 +512,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4FD995FD2CCFC87400EE9B9D /* Build configuration list for PBXProject "ToDoApp" */ = {
+		4FD995FD2CCFC87400EE9B9D /* Build configuration list for PBXProject "ToDoList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4FD996252CCFC87500EE9B9D /* Debug */,
@@ -521,7 +521,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4FD996272CCFC87500EE9B9D /* Build configuration list for PBXNativeTarget "ToDoApp" */ = {
+		4FD996272CCFC87500EE9B9D /* Build configuration list for PBXNativeTarget "ToDoList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4FD996282CCFC87500EE9B9D /* Debug */,
@@ -530,7 +530,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4FD9962A2CCFC87500EE9B9D /* Build configuration list for PBXNativeTarget "ToDoAppTests" */ = {
+		4FD9962A2CCFC87500EE9B9D /* Build configuration list for PBXNativeTarget "ToDoListTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4FD9962B2CCFC87500EE9B9D /* Debug */,
@@ -539,7 +539,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4FD9962D2CCFC87500EE9B9D /* Build configuration list for PBXNativeTarget "ToDoAppUITests" */ = {
+		4FD9962D2CCFC87500EE9B9D /* Build configuration list for PBXNativeTarget "ToDoListUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4FD9962E2CCFC87500EE9B9D /* Debug */,

@@ -6,7 +6,7 @@
 //
 
 import Testing
-@testable import ToDoApp
+@testable import ToDoList
 
 struct ToDoAppTests {
 

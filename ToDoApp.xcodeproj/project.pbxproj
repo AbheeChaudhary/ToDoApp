@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4F69B36E2CCFD2ED00B46C4F /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F69B36D2CCFD2E800B46C4F /* Task.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		4FD996142CCFC87500EE9B9D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F69B36D2CCFD2E800B46C4F /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		4FD996022CCFC87400EE9B9D /* ToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FD996132CCFC87500EE9B9D /* ToDoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FD9961D2CCFC87500EE9B9D /* ToDoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +80,7 @@
 		4FD995F92CCFC87400EE9B9D = {
 			isa = PBXGroup;
 			children = (
+				4F69B36D2CCFD2E800B46C4F /* Task.swift */,
 				4FD996042CCFC87400EE9B9D /* ToDoApp */,
 				4FD996162CCFC87500EE9B9D /* ToDoAppTests */,
 				4FD996202CCFC87500EE9B9D /* ToDoAppUITests */,
@@ -236,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F69B36E2CCFD2ED00B46C4F /* Task.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
